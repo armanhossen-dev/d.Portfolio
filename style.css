@@ -167,7 +167,7 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 200px;
     height: 50px;
     background: #00abfe;
     border: 2px solid #00abfe;
@@ -314,3 +314,28 @@ body{
     }
 }
     
+
+@media screen and (max-width:600px){
+    .home-content h1{
+        font-size: 25px;
+    }
+    .home-content h3{
+        font-size: 20px;
+    }
+    .home-content p{
+            font-size: 14px;
+    }
+    .home-content .btn-box{
+        width: 250px;
+        height: 50px;
+        
+        font-size: 12px;
+    }
+    .home-sci{
+        bottom: 10px;
+        width: 150px ;
+    }
+    .home-content{
+        width: 80%;
+    }
+}
