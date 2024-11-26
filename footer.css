@@ -33,18 +33,18 @@
     color: #2f80ed;
 }
 
-.footer-links ul {
-    list-style-type: none;
-}
-
-.footer-links ul li {
+.footer-links {
     margin-bottom: 8px;
 }
 
-.footer-links ul li a{
+.footer-links a{
+    align-items: left;
     color: #ccc;
     text-decoration: none;
     font-size: 14px;
+}
+.footer-links a:hover{
+    color: #4889d4;
 }
 
 i{

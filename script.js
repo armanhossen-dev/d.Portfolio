@@ -28,41 +28,6 @@ faqQuestions.forEach((question) => {
 });
 
 
-// Open Social Media Popup
-document.getElementById("contact-link").addEventListener("click", function(event) {
-    event.preventDefault();
-    document.getElementById("social-popup").style.display = "flex";
-});
-
-// Close Social Media Popup
-document.getElementById("close-popup").addEventListener("click", function() {
-    document.getElementById("social-popup").style.display = "none";
-});
-
-// Optional: Close the popup when clicking outside the popup content
-document.getElementById("social-popup").addEventListener("click", function(event) {
-    if (event.target === document.getElementById("social-popup")) {
-        document.getElementById("social-popup").style.display = "none";
-    }
-});
-
-// Open "How It Works" Popup
-document.getElementById("how-it-works-link").addEventListener("click", function(event) {
-    event.preventDefault();
-    document.getElementById("how-it-works-popup").style.display = "flex";
-});
-
-// Close "How It Works" Popup
-document.getElementById("close-how-it-works-popup").addEventListener("click", function() {
-    document.getElementById("how-it-works-popup").style.display = "none";
-});
-
-// Optional: Close the popup when clicking outside the popup content
-document.getElementById("how-it-works-popup").addEventListener("click", function(event) {
-    if (event.target === document.getElementById("how-it-works-popup")) {
-        document.getElementById("how-it-works-popup").style.display = "none";
-    }
-});
 
 
 

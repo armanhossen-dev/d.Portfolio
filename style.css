@@ -6,6 +6,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
     
 }
 
@@ -76,7 +77,7 @@ nav #home-link{
     margin-left: auto;
 }
 nav #lastnav-link{
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 nav svg{
@@ -99,6 +100,9 @@ nav svg{
 }
 
 @media (max-width: 720px) {
+    html{
+        overflow-x: hidden;
+    }
     .links-container{
         flex-direction: column;
         align-items: flex-start;
@@ -144,7 +148,7 @@ nav svg{
     text-align: center;
     background-color: #0f0f0f;
     color: #f1f1f1;
-    padding: 2rem;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap; 
     width: 100%;
@@ -162,7 +166,7 @@ nav svg{
 .home-content h1 {
     text-align: left;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 500;
     margin-bottom: 1.5rem;
     color: #6c63ff;
 }
@@ -565,4 +569,158 @@ section{
     display: flex;
     flex-wrap: wrap; 
     width: 100%;
+}
+
+
+ /* Scrollbar track */
+ ::-webkit-scrollbar {
+    width: 5px; /* Width for vertical scrollbar */
+    height: 10px; /* Height for horizontal scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0f0f0f; /* Track color */
+    border-radius: 2px; /* Rounded corners */
+  }
+
+  /* Scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background: #6c63ff; /* Thumb color */
+    border-radius: 2px; /* Rounded corners */
+  }
+
+  /* On hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker on hover */
+  }
+
+
+  /* Projects Section Styling */
+.projects-section {
+    width: 100vw;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background-color: #0f0f0f;
+}
+
+.section-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    position: relative;
+}
+
+
+.projects-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.project-card {
+    flex: 0 1 calc(33.333% - 2rem);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    min-width: 250px;
+    max-width: 400px;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.12);
+}
+
+.project-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.project-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.project-title{
+    font-size: 1.4rem;
+    color: #1a1a2e;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+}
+
+.project-description {
+    color: #4a4e69;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1200px) {
+    .project-card {
+        flex: 0 1 calc(50% - 2rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .project-card {
+        flex: 0 1 100%;
+    }
+}
+
+/* Accessibility and Interaction Enhancements */
+.project-card {
+    cursor: pointer;
+    position: relative;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.project-card:focus-within,
+.project-card:hover {
+    border-color: #4a4e69;
+}
+
+/* Subtle Background Effect */
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(74, 78, 105, 0.05) 0%, rgba(74, 78, 105, 0.02) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.project-card:hover::before {
+    opacity: 1;
 }
