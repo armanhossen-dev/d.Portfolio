@@ -47,28 +47,6 @@
     color: #4889d4;
 }
 
-i{
-    color: white;
-    font-size: 30px;
-    transition: .5s;
-}
-.social-media a .fb:hover{
-    color: #1da1f2; 
-}
-
-.social-media a .wt:hover{
-    color: #4FCE5D; 
-}
-.social-media a .ins:hover {
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.social-media a .ln:hover{
-    color: #007bb8; 
-}
-
-
 
 .footer-links ul li a:hover {
     color: #2f80ed;
