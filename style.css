@@ -240,7 +240,7 @@ nav svg{
     border: 2px solid #6c63ff;
     border-radius: 50%;
     font-size: 32px;
-    color: #6c63ff;
+    color: white;
     text-decoration: none;
     z-index: 1;
 }
@@ -253,13 +253,14 @@ nav svg{
     left: 0;
     width: 0;
     height: 100%;
-    background: #6c63ff;
+    background: white;
     z-index: -1;
     transition: .5s;
 }
 .home-sci a:hover:before{
     width: 100%;
     transition: .5s;
+    
 }
 
 .home-imgHover{
