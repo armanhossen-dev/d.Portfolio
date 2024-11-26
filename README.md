@@ -5,15 +5,6 @@ Welcome to my personal portfolio website! This platform showcases my skills, pro
 ## Website Link
 [Visit my portfolio](https://armanhossen.vercel.app/)
 
-## Features
-- **About Me**: Learn more about my background, interests, and career aspirations.
-- **Projects**: A showcase of my work, including:
-  - Comics created by my friends.
-  - Stories I have shared.
-- **Services**: Detailed descriptions of services I offer, with real-world icons and actionable buttons.
-- **Responsive Design**: Optimized for viewing across all devices.
-- **Custom Design**: Bright green, red, and deep dark tones with starry or cityscape-inspired backgrounds for an engaging aesthetic.
-
 ## Technologies Used
 - **HTML5**: Structuring the content of the website.
 - **CSS3**: Styling and designing the interface.
