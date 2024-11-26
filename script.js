@@ -64,8 +64,12 @@ document.getElementById("how-it-works-popup").addEventListener("click", function
     }
 });
 
-//scrolllllllll
-  const scrollers = document.querySelectorAll(".scroller");
+
+
+
+
+//scroll
+const scrollers = document.querySelectorAll(".scroller");
 
 // If a user hasn't opted in for recuded motion, then we add the animation
 if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {

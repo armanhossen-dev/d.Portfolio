@@ -6,7 +6,7 @@
 }
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    
 }
 
 body {
@@ -76,7 +76,7 @@ nav #home-link{
     margin-left: auto;
 }
 nav #lastnav-link{
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 nav svg{
@@ -434,6 +434,7 @@ nav svg{
     height: 40px; /* Specific height for images in imgBox */
   }
 
+  
 /*bg color change korai lag bo*/
 body {
     background-color: #0f0f0f; /* Changes the page background */
