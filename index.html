@@ -31,19 +31,17 @@
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#" class="active">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="#"  id="lastnav-link">Contact</a>
     </div>
 </nav> 
     <!-- Home Section -->
     <section class="home">
         <div class="home-content">
-            <h2>Hi, I'm Arman Hossen Ripon</h2>
-            <h3>Frontend Developer</h3>
+            <h2>Hello there!</h2>
+            <h2 class="name">Arman Hossen Ripon,</h2>
             <p>
-                Crafting modern, responsive, and user-friendly websites with precision and passion—
-                delivering solutions that stand out and perform.
+                "I am a passionate computer science enthusiast, combining creativity with technology to develop innovative solutions. Welcome to my digital space, where I showcase my work, projects, and ideas. Let's connect and explore new possibilities!" ✨
             </p>
-            
             <div class="btn-box">
                 <a href="#"><button class="h_l">Hire Me</button></a>
                 <a href="#"><button class="h_l">Let's Talk</button></a>    
@@ -61,8 +59,8 @@
     </section>
 
 
-    <h1 style="text-align: center">Infinite Scroll Animation</h1>
     <div class="scroller" data-speed="slow">
+        <h1 class="skills">Skills</h1>        
         <div>
             <ul class="tag-list scroller__inner">
                 <li class="html" >HTML</li>
@@ -138,16 +136,14 @@
         <div class="footer-content">
             <div class="footer-logo">
                 <h2>Md. Arman Hossen Ripon</h2>
-                <p>Your trusted platform for seamless fund transfers between banks and hospitals.</p>
+                <p>
+                    Passionate CSE enthusiast, merging creativity and tech to craft innovative solutions. Explore my work and connect for exciting opportunities!
+                </p>
             </div>
 
             <div class="footer-links">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#" id="how-it-works-link">How It Works</a></li>
-                    <li><a href="#" id="contact-link">Contact</a></li>
                     <li><a href="#" id="faq-link">FAQs</a></li> <!-- FAQ link -->
                 </ul>
             </div>
@@ -170,83 +166,49 @@
         </div>
     </footer>
 
-    <!-- FAQs Modal -->
-    <div id="faq-modal" class="faq-modal">
-        <div class="faq-modal-content">
-            <h3>Frequently Asked Questions</h3>
-            <button id="close-modal">X</button>
-            <div class="faq-item">
-                <button class="faq-question">
-                    What is HealFundry?
-                    <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path d="M1 4l6 6 6-6" />
-                    </svg>
-                </button>
-                <div class="faq-answer">
-                    <p>HealFundry is a platform that enables secure and seamless fund transfers from individuals to hospitals for medical bills, ensuring timely payments for urgent medical care.</p>
-                </div>
+<!-- FAQs Modal -->
+<div id="faq-modal" class="faq-modal">
+    <div class="faq-modal-content">
+        <h3>Frequently Asked Questions</h3>
+        <button id="close-modal">X</button>
+        <div class="faq-item">
+            <button class="faq-question">
+                Who is Md. Arman Hossen Ripon?
+                <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M1 4l6 6 6-6" />
+                </svg>
+            </button>
+            <div class="faq-answer">
+                <p>I am a passionate Computer Science and Engineering student at Daffodil International University, skilled in web development, problem-solving, and creating innovative solutions in technology.</p>
             </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    How do I transfer money?
-                    <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path d="M1 4l6 6 6-6" />
-                    </svg>
-                </button>
-                <div class="faq-answer">
-                    <p>You can initiate a transfer through our secure website by linking your bank account, selecting the hospital, and entering the necessary payment details.</p>
-                </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                What kind of projects have you worked on?
+                <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M1 4l6 6 6-6" />
+                </svg>
+            </button>
+            <div class="faq-answer">
+                <p>My projects span across web development, software engineering, and problem-solving. Some examples include creating responsive websites, portfolio designs, and AI-based tools.</p>
             </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    Is my payment information secure?
-                    <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path d="M1 4l6 6 6-6" />
-                    </svg>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes, we use state-of-the-art encryption methods to ensure your payment and personal information is secure at all times.</p>
-                </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                How can I collaborate with you?
+                <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M1 4l6 6 6-6" />
+                </svg>
+            </button>
+            <div class="faq-answer">
+                <p>You can reach out to me via the contact form on my website or through my email. I am always open to collaborations, freelance projects, or discussions on technology and innovation.</p>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- Social Media Popup -->
-    <div id="social-popup" class="social-popup">
-        <div class="social-popup-content">
-            <button id="close-popup">X</button>
-            <h3>Connect with Us</h3>
-            <div class="social-media">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="facebook-icon.png" alt="Facebook">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="twitter-icon.png" alt="Twitter">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="instagram-icon.png" alt="Instagram">
-                </a>
-                <!-- Add more social media links here -->
-            </div>
-        </div>
-    </div>
 
-    <!-- How It Works Popup -->
-    <div id="how-it-works-popup" class="how-it-works-popup">
-        <div class="how-it-works-popup-content">
-            <button id="close-how-it-works-popup">X</button>
-            <h3>How HealFundry Works</h3>
-            <p>HealFundry is a simple platform designed to help individuals easily and securely transfer money to hospitals for medical expenses. Here's how it works:</p>
-            <ol>
-                <li><strong>Step 1:</strong> Sign up or log in to your HealFundry account.</li>
-                <li><strong>Step 2:</strong> Link your bank account to the platform for easy transfers.</li>
-                <li><strong>Step 3:</strong> Select the hospital where your loved one is being treated.</li>
-                <li><strong>Step 4:</strong> Enter the amount to transfer and review the details.</li>
-                <li><strong>Step 5:</strong> Confirm the transfer, and your payment will be securely processed.</li>
-            </ol>
-            <p>Your funds will reach the hospital promptly, ensuring timely medical care for those in need!</p>
-        </div>
-    </div>
+   
 
     <script src="script.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

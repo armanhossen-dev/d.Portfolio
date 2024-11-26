@@ -6,6 +6,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -73,6 +74,9 @@ nav a.active:hover{
 
 nav #home-link{
     margin-left: auto;
+}
+nav #lastnav-link{
+    margin-right: 40px;
 }
 
 nav svg{
@@ -321,72 +325,28 @@ nav svg{
         .btn-box {
             display: flex;
             justify-content: left; /* Align buttons to the left */
-            margin-left: -5pc; /* Optional, adjust as needed */
+            margin-left: 0pc; /* Optional, adjust as needed */
             gap: 10px; /* Space between buttons */
-        }
-    
+        }    
         .btn-box .h_l {
-            padding: 0px 10px;
+            padding: 5px 10px;
             font-size: 16px;
             border-radius: 5px;
-            
+            text-align: center;
         } 
     }
 }
 
-/* Section Titles */
-.section-title {
+
+.skills{
     font-size: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: #00ebf3;
-    background-color: #0f0f0f;
-}
-
-/* Projects Section */
-
-section{
-    background-color: #0f0f0f;
-    color: #f1f1f1;
-    flex-wrap: wrap; 
-    width: 100vw;
-}
-#projects .card {
-    background-color:#564fcc;
-    border: none;
-    border-radius: 10px;
-    margin: 8px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    transition: transform 0.5s, box-shadow 0.3s;
-}
-#projects .card:hover {
-    transform: scale(1.05);
-    background-color: #6c63ff ;
-    box-shadow: 0 18px 20px rgba(0, 0, 0, 0.76);
-}
-
-#projects .card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-#projects .card-text {
-    font-size: 0.9rem;
-    color: #fff;
-}
-
-.skill{
-    text-align: center;
-    font-size: 40px;
-    background-color: #0f0f0f;
-    width: 100vw;
-    padding: 5px;
-    color: #fff;
     text-transform: uppercase;
+    text-align: center;
+    color: white;
 }
-  
+
+
+
 /*scrollllllllll*/
 .scroller {
     width: 100vw;
