@@ -305,7 +305,7 @@ nav svg{
       order: 2; /* Text follows after SVG */
     }
   }
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .home-content h2 {
         font-size: 20px;
         font-weight: 700;
@@ -325,31 +325,40 @@ nav svg{
     .home-content {
       order: 2; 
     }
-    @media (max-width: 768px) { /* For tablet and smaller screens */
-        .btn-box {
-            display: flex;
-            justify-content: left; /* Align buttons to the left */
-            margin-left: 0pc; /* Optional, adjust as needed */
-            gap: 10px; /* Space between buttons */
-        }    
-        .btn-box .h_l {
-            padding: 5px 10px;
-            font-size: 16px;
-            border-radius: 5px;
-            text-align: center;
-        } 
+    .home-content h4 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        margin-bottom: .8rem;
     }
+    .home-content h1 {
+        text-align: left;
+        font-size: 31px;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+        color: #6c63ff;
+    }
+    .home-content p{
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
 }
-
-
-.skills{
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
+@media (max-width: 768px) { /* For tablet and smaller screens */
+    .btn-box {
+        display: flex;
+        justify-content: left; /* Align buttons to the left */
+        margin-left: 0pc; /* Optional, adjust as needed */
+        gap: 10px; /* Space between buttons */
+    }    
+    .btn-box .h_l {
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        text-align: center;
+    } 
 }
-
-
 
 /*scrollllllllll*/
 .scroller {
@@ -661,10 +670,11 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 1.8rem;
 }
 
 .project-title{
+    text-transform: uppercase;
     font-size: 1.4rem;
     color: #1a1a2e;
     margin-bottom: 0.75rem;
