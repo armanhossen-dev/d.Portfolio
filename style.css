@@ -604,8 +604,19 @@ section{
     background: #555; /* Darker on hover */
   }
 
+/*@keyframes*/
+@keyframes appear {
+from{
+    opacity: 0;
+    scale: 0.5;
+}
+to{
+    opacity: 1;
+    scale: 1;
+}
+}
 
-  /* Projects Section Styling */
+ /* Projects Section Styling */
 .projects-section {
     width: 100vw;
     max-width: 1400px;
@@ -645,6 +656,9 @@ section{
     max-width: 400px;
     margin-bottom: 1rem;
     border: none;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 .project-card:hover {
@@ -735,3 +749,15 @@ a{
 .project-card:hover::before {
     opacity: 1;
 }
+
+
+
+
+
+/*
+
+animation: apper liner;
+animation-timeline: view();
+animation-range: entry 0% cover 40%;
+
+*/
