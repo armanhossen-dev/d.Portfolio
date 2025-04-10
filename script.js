@@ -28,11 +28,6 @@ faqQuestions.forEach((question) => {
 });
 
 
-
-
-
-
-
 //scroll
 const scrollers = document.querySelectorAll(".scroller");
 
