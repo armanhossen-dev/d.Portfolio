@@ -524,6 +524,11 @@ body {
 }
 
 
+.msof:hover{
+    background:linear-gradient(to bottom, #e5f0ff 0%, #0078d7 100%);
+    color: white;
+}
+
 /* Testimonials Section */
 #testimonials p {
     font-style: italic;
