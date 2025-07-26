@@ -27,7 +27,7 @@ For inquiries, feedback, or collaboration opportunities:
 
 - **Email**: [armanhossen.cse@gmail.com](mailto:armanhossen.cse@gmail.com)
 - **Phone (WhatsApp)**: [+8801740471380](https://wa.me/8801740471380)
-- **LinkedIn**: [Md. Arman Hossen Ripon](https://www.linkedin.com/in/1ahrn/)
+- **LinkedIn**: [Md. Arman Hossen Ripon]([https://www.linkedin.com/in/armanhossenripon/])
 - **Instagram**: [i.am.ahrn](https://www.instagram.com/i.am.ahrn/)
 - **X (Twitter)**: [i_am_ahrn](https://x.com/i_am_ahrn)
 - **Facebook**: [i.am.ahrn2](https://www.facebook.com/i.am.ahrn2)
